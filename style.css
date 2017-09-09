@@ -1,0 +1,78 @@
+.container div
+{
+    width: 24%;
+    height: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 41px;
+    font-family: sans-serif;
+    color: white;
+    margin: 0.5px;
+    border: 2px solid;
+    //transition: background-color 1s linear;
+    //background-color: aqua;
+}
+.container div:hover
+{
+    background-color: aqua;
+}
+.container
+{
+    border: 6px solid goldenrod;
+    width: 500px;
+    height: 500px;
+    background-color: lavender;
+    display: flex;
+    flex-flow: row wrap;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container div[data-content="2"]
+{
+    background-color: rgb(0,0,255);
+}
+.container div[data-content="4"]
+{
+    background-color: rgb(255,0,25);
+}
+.container div[data-content="8"]
+{
+    background-color: rgb(225,0,50);   
+}
+.container div[data-content="16"]
+{
+    background-color: rgb(190,0,75);
+}
+.container div[data-content="32"]
+{
+    background-color: rgb(160,0,100);
+}
+.container div[data-content="64"]
+{
+    background-color: rgb(130,0,125);
+}
+.container div[data-content="128"]
+{
+    background-color: rgb(100,0,150);
+}
+.container div[data-content="256"]
+{
+    background-color: rgb(70,0,175);
+}
+.container div[data-content="512"]
+{
+    background-color: rgb(40,0,200);   
+}
+.container div[data-content="1024"]
+{
+    background-color: rgb(30,0,225);   
+}
+.container div[data-content="2048"]
+{
+    background-color: rgb(10,0,250);    
+}
